@@ -278,7 +278,7 @@ function ResponsiveAppBar() {
       </Grid>
     </Grid>
     <Box sx={{ mt: 3, textAlign: 'center' }}>
-      <a href='/documents/Resume.pdf'>
+      <a href='/images/projects/Resume.pdf'>
         <Button color='primary' variant='contained' sx={{ fontFamily: 'Abril FatFace', fontSize: { xs: '1rem', md: '1.2rem' } }}>
           <Download /> Download CV
         </Button>
@@ -416,7 +416,7 @@ function ResponsiveAppBar() {
                   </Box>
                 </CardContent>
                 <Box p={1} sx={{ display: 'flex', justifyContent: 'flex-end' }}>
-                  <a href='/images/projects/Final Policy Paper.pdf' target="_blank" rel="noopener noreferrer">
+                  <a href='/images/projects/Final_Policy_Paper.pdf' target="_blank" rel="noopener noreferrer">
                     <IconButton sx={{ cursor: 'pointer' }}>
                       <LinkIcon sx={{ cursor: 'pointer', fontSize: '2.5rem', color: '#638459', borderRadius: '25%', mt:12.5, ml:3 }} />
                     </IconButton>
@@ -501,7 +501,7 @@ function ResponsiveAppBar() {
                   </Box>
                 </CardContent>
                 <Box p={1} sx={{ display: 'flex', justifyContent: 'flex-end' }}>
-                  <a href='/images/projects/Final Paper - Evil Eye.pdf' target="_blank" rel="noopener noreferrer">
+                  <a href='/images/projects/Final_Paper_Evil_Eye.pdf' target="_blank" rel="noopener noreferrer">
                     <IconButton sx={{ cursor: 'pointer' }}>
                       <LinkIcon sx={{ cursor: 'pointer', fontSize: '2.5rem', color: '#638459', borderRadius: '25%', mt:12.5, ml:3 }} />
                     </IconButton>
@@ -541,7 +541,7 @@ function ResponsiveAppBar() {
                   </Box>
                 </CardContent>
                 <Box p={1} sx={{ display: 'flex', justifyContent: 'flex-end' }}>
-                  <a href='/images/projects/Final Paper - Evil Eye.pdf' target="_blank" rel="noopener noreferrer">
+                  <a href='/images/projects/Final_Paper_Evil_Eye.pdf' target="_blank" rel="noopener noreferrer">
                     <IconButton sx={{ cursor: 'pointer' }}>
                       <LinkIcon sx={{ cursor: 'pointer', fontSize: '2.5rem', color: '#638459', borderRadius: '25%', mt:12.5, ml:3}} />
                     </IconButton>
