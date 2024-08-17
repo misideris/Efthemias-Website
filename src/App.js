@@ -278,7 +278,7 @@ function ResponsiveAppBar() {
       </Grid>
     </Grid>
     <Box sx={{ mt: 3, textAlign: 'center' }}>
-      <a href='/images/projects/Resume.pdf'>
+      <a href={`${process.env.PUBLIC_URL}/images/projects/Resume.pdf`}>
         <Button color='primary' variant='contained' sx={{ fontFamily: 'Abril FatFace', fontSize: { xs: '1rem', md: '1.2rem' } }}>
           <Download /> Download CV
         </Button>
@@ -391,7 +391,7 @@ function ResponsiveAppBar() {
               <Grid item xs={12} sm={6}>
                 <CardMedia
                   component="img"
-                  image="/images/plot.png"
+                  image={`${process.env.PUBLIC_URL}/images/plot.png`}
                   alt="The Influence of Institutional Barriers and Personality on Gendered Occupational Choice"
                   sx={{ objectFit: 'scale-down', width: '100%', height: 240, objectPosition: '40px', mt: '70px', ml:-2 }}
                 />
@@ -416,7 +416,7 @@ function ResponsiveAppBar() {
                   </Box>
                 </CardContent>
                 <Box p={1} sx={{ display: 'flex', justifyContent: 'flex-end' }}>
-                  <a href='/images/projects/Final_Policy_Paper.pdf' target="_blank" rel="noopener noreferrer">
+                  <a href={`${process.env.PUBLIC_URL}/images/projects/Final_Policy_Paper.pdf`} target="_blank" rel="noopener noreferrer">
                     <IconButton sx={{ cursor: 'pointer' }}>
                       <LinkIcon sx={{ cursor: 'pointer', fontSize: '2.5rem', color: '#638459', borderRadius: '25%', mt:12.5, ml:3 }} />
                     </IconButton>
@@ -434,7 +434,7 @@ function ResponsiveAppBar() {
               <Grid item xs={12} sm={6}>
                 <CardMedia
                   component="img"
-                  image="/images/code2.png"
+                  image={`${process.env.PUBLIC_URL}/images/code2.png`}
                   alt="The Design and Implementation of Blackjack Using Assembly Language"
                   sx={{ objectFit: 'scale-down', width: '100%', height: 240, objectPosition: '4px', mt: '70px' }}
                 />
@@ -476,7 +476,7 @@ function ResponsiveAppBar() {
               <Grid item xs={12} sm={6}>
                 <CardMedia
                   component="img"
-                  image="/images/pub.png"
+                  image={`${process.env.PUBLIC_URL}/images/pub.png`}
                   alt="The Economics of the Evil Eye"
                   sx={{ objectFit: 'contain', width: '100%', height: 260, objectPosition: '45px', mt: '60px', ml: -3 }}
                 />
@@ -501,7 +501,7 @@ function ResponsiveAppBar() {
                   </Box>
                 </CardContent>
                 <Box p={1} sx={{ display: 'flex', justifyContent: 'flex-end' }}>
-                  <a href='/images/projects/Final_Paper_Evil_Eye.pdf' target="_blank" rel="noopener noreferrer">
+                  <a href={`${process.env.PUBLIC_URL}/images/projects/Final_Paper_Evil_Eye.pdf`} target="_blank" rel="noopener noreferrer">
                     <IconButton sx={{ cursor: 'pointer' }}>
                       <LinkIcon sx={{ cursor: 'pointer', fontSize: '2.5rem', color: '#638459', borderRadius: '25%', mt:12.5, ml:3 }} />
                     </IconButton>
@@ -519,7 +519,7 @@ function ResponsiveAppBar() {
               <Grid item xs={12} lg={6}>
                 <CardMedia
                   component="img"
-                  image="/images/web.png"
+                  image={`${process.env.PUBLIC_URL}/images/web.png`}
                   alt="My Personal Website"
                   sx={{ objectFit: 'scale-down', width: '100%', height: 260, objectPosition: '0px', mt: '60px', ml: '6px' }}
                 />
@@ -541,7 +541,7 @@ function ResponsiveAppBar() {
                   </Box>
                 </CardContent>
                 <Box p={1} sx={{ display: 'flex', justifyContent: 'flex-end' }}>
-                  <a href='/images/projects/Final_Paper_Evil_Eye.pdf' target="_blank" rel="noopener noreferrer">
+                  <a href={`${process.env.PUBLIC_URL}/images/projects/Final_Paper_Evil_Eye.pdf`} target="_blank" rel="noopener noreferrer">
                     <IconButton sx={{ cursor: 'pointer' }}>
                       <LinkIcon sx={{ cursor: 'pointer', fontSize: '2.5rem', color: '#638459', borderRadius: '25%', mt:12.5, ml:3}} />
                     </IconButton>
