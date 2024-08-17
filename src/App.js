@@ -415,13 +415,9 @@ function ResponsiveAppBar() {
                     ))}
                   </Box>
                 </CardContent>
-                <Box p={1} sx={{ display: 'flex', justifyContent: 'flex-end' }}>
-                  <a href={`${process.env.PUBLIC_URL}/images/projects/Final_Policy_Paper.pdf`} target="_blank" rel="noopener noreferrer">
-                    <IconButton sx={{ cursor: 'pointer' }}>
-                      <LinkIcon sx={{ cursor: 'pointer', fontSize: '2.5rem', color: '#638459', borderRadius: '25%', mt:12.5, ml:3 }} />
-                    </IconButton>
-                  </a>
-                </Box>
+                <IconButton href={`${process.env.PUBLIC_URL}/images/projects/Final_Policy_Paper.pdf`} sx={{ cursor: 'pointer', padding: 1, display: 'flex', justifyContent: 'flex-end'}}>
+                  <LinkIcon sx={{ cursor: 'pointer', fontSize: '2.5rem', color: '#638459', borderRadius: '25%', mt:12.5, ml:3 }} />
+                </IconButton>
               </Grid>
             </Grid>
           </CardActionArea>
@@ -457,13 +453,9 @@ function ResponsiveAppBar() {
                     ))}
                   </Box>
                 </CardContent>
-                <Box p={1} sx={{ display: 'flex', justifyContent: 'flex-end' }}>
-                  <a href="https://github.com/jujusf13/Assembly_blackjack/blob/main/CP2_Final_File.s" target="_blank" rel="noopener noreferrer">
-                    <IconButton sx={{ cursor: 'pointer' }}>
-                      <LinkIcon sx={{ cursor: 'pointer', fontSize: '2.5rem', color: '#638459', borderRadius: '25%', mt:12.5, ml:3 }} />
-                    </IconButton>
-                  </a>
-                </Box>
+                <IconButton  href="https://github.com/jujusf13/Assembly_blackjack/blob/main/CP2_Final_File.s" sx={{ cursor: 'pointer', padding: 1, display: 'flex', justifyContent: 'flex-end'}}>
+                  <LinkIcon sx={{ cursor: 'pointer', fontSize: '2.5rem', color: '#638459', borderRadius: '25%', mt:12.5, ml:3 }} />
+                </IconButton>
               </Grid>
             </Grid>
           </CardActionArea>
@@ -500,13 +492,9 @@ function ResponsiveAppBar() {
                     ))}
                   </Box>
                 </CardContent>
-                <Box p={1} sx={{ display: 'flex', justifyContent: 'flex-end' }}>
-                  <a href={`${process.env.PUBLIC_URL}/images/projects/Final_Paper_Evil_Eye.pdf`} target="_blank" rel="noopener noreferrer">
-                    <IconButton sx={{ cursor: 'pointer' }}>
-                      <LinkIcon sx={{ cursor: 'pointer', fontSize: '2.5rem', color: '#638459', borderRadius: '25%', mt:12.5, ml:3 }} />
-                    </IconButton>
-                  </a>
-                </Box>
+                <IconButton href={`${process.env.PUBLIC_URL}/images/projects/Final_Paper_Evil_Eye.pdf`} sx={{ cursor: 'pointer', padding: 1, display: 'flex', justifyContent: 'flex-end'}}>
+                  <LinkIcon sx={{ cursor: 'pointer', fontSize: '2.5rem', color: '#638459', borderRadius: '25%', mt:12.5, ml:3 }} />
+                </IconButton>
               </Grid>
             </Grid>
           </CardActionArea>
@@ -540,13 +528,9 @@ function ResponsiveAppBar() {
                     ))}
                   </Box>
                 </CardContent>
-                <Box p={1} sx={{ display: 'flex', justifyContent: 'flex-end' }}>
-                  <a href={`${process.env.PUBLIC_URL}/images/projects/Final_Paper_Evil_Eye.pdf`} target="_blank" rel="noopener noreferrer">
-                    <IconButton sx={{ cursor: 'pointer' }}>
-                      <LinkIcon sx={{ cursor: 'pointer', fontSize: '2.5rem', color: '#638459', borderRadius: '25%', mt:12.5, ml:3}} />
-                    </IconButton>
-                  </a>
-                </Box>
+                <IconButton href={`${process.env.PUBLIC_URL}/images/projects/Final_Paper_Evil_Eye.pdf`} sx={{ cursor: 'pointer', padding: 1, display: 'flex', justifyContent: 'flex-end'}}>
+                  <LinkIcon sx={{ cursor: 'pointer', fontSize: '2.5rem', color: '#638459', borderRadius: '25%', mt:12.5, ml:3 }} />
+                </IconButton>
               </Grid>
             </Grid>
           </CardActionArea>
