@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Efthemias-Website/static/css/main.e6c13ad2.css",
-    "main.js": "/Efthemias-Website/static/js/main.9df0f945.js",
+    "main.js": "/Efthemias-Website/static/js/main.68424bb7.js",
     "static/js/453.4acdad54.chunk.js": "/Efthemias-Website/static/js/453.4acdad54.chunk.js",
     "index.html": "/Efthemias-Website/index.html",
     "main.e6c13ad2.css.map": "/Efthemias-Website/static/css/main.e6c13ad2.css.map",
-    "main.9df0f945.js.map": "/Efthemias-Website/static/js/main.9df0f945.js.map",
+    "main.68424bb7.js.map": "/Efthemias-Website/static/js/main.68424bb7.js.map",
     "453.4acdad54.chunk.js.map": "/Efthemias-Website/static/js/453.4acdad54.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.9df0f945.js"
+    "static/js/main.68424bb7.js"
   ]
 }
