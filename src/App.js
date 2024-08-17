@@ -278,7 +278,7 @@ function ResponsiveAppBar() {
       </Grid>
     </Grid>
     <Box sx={{ mt: 3, textAlign: 'center' }}>
-      <a href='/images/M.Sideris Resumepdf'>
+      <a href='/documents/Resume.pdf'>
         <Button color='primary' variant='contained' sx={{ fontFamily: 'Abril FatFace', fontSize: { xs: '1rem', md: '1.2rem' } }}>
           <Download /> Download CV
         </Button>
