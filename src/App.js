@@ -9,7 +9,7 @@ import Button from '@mui/material/Button';
 import HomeIcon from '@mui/icons-material/Home';
 import SentimentSatisfiedAltIcon from '@mui/icons-material/SentimentSatisfiedAlt';
 import FolderIcon from '@mui/icons-material/Folder';
-import { Avatar } from '@mui/material';
+import { Avatar, Chip } from '@mui/material';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -76,8 +76,8 @@ const images = [
     imgPath: `${process.env.PUBLIC_URL}/images/dadeagles.jpg`,
   },
   {
-    label: 'Outdoor Track Meet @ Widener Invitational, 2023',
-    imgPath: `${process.env.PUBLIC_URL}/images/wide.jpg`,
+    label: 'Me @ Terhune Orchards, 2024',
+    imgPath: `${process.env.PUBLIC_URL}/images/me_farm.jpg`,
   },
   {
     label: 'My Chihuahua, Lucky',
@@ -129,7 +129,7 @@ function SwipeableTextMobileStepper() {
               <Box
                 component="img"
                 sx={{
-                  height: 400,
+                  height: 440,
                   width: 510,
                   display: 'block',
                   overflow: 'hidden',
@@ -278,7 +278,7 @@ function ResponsiveAppBar() {
       </Grid>
     </Grid>
     <Box sx={{ mt: 3, textAlign: 'center' }}>
-      <a href={`${process.env.PUBLIC_URL}/images/projects/Resume.pdf`}>
+      <a href={`${process.env.PUBLIC_URL}/images/projects/MSideris_Resume1.pdf`}>
         <Button color='primary' variant='contained' sx={{ fontFamily: 'Abril FatFace', fontSize: { xs: '1rem', md: '1.2rem' } }}>
           <Download /> Download CV
         </Button>
@@ -409,14 +409,12 @@ function ResponsiveAppBar() {
                   </Typography>
                   <Box mt={2}>
                     {['Research', 'Data Analysis', 'Policy Analysis', 'R Programming'].map(skill => (
-                      <Button key={skill} variant="contained" color="primary" sx={{ mr: 1, mt: 1 }}>
-                        {skill}
-                      </Button>
+                      <Chip label={skill} key={skill} variant="contained" color="primary" sx={{ mr: 1, mt: 1 }}/>
                     ))}
                   </Box>
                 </CardContent>
-                <IconButton href={`${process.env.PUBLIC_URL}/images/projects/Final_Policy_Paper.pdf`} sx={{ cursor: 'pointer', padding: 1, display: 'flex', justifyContent: 'flex-end'}}>
-                  <LinkIcon sx={{ cursor: 'pointer', fontSize: '2.5rem', color: '#638459', borderRadius: '25%', mt:12.5, ml:3 }} />
+                <IconButton href={`${process.env.PUBLIC_URL}/images/projects/Final_Policy_Paper.pdf`} sx={{ mt:12.5, ml:3, cursor: 'pointer', padding: 1, display: 'flex', justifyContent: 'flex-end'}}>
+                  <LinkIcon sx={{ cursor: 'pointer', fontSize: '2.5rem', color: '#638459', borderRadius: '25%'}} />
                 </IconButton>
               </Grid>
             </Grid>
@@ -447,14 +445,12 @@ function ResponsiveAppBar() {
                   </Typography>
                   <Box mt={2}>
                     {['8086 Emulator', 'Turbo Assembly Language', 'Debugging', 'Technical Writing'].map(skill => (
-                      <Button key={skill} variant="contained" color="primary" sx={{ mr: 1, mt: 1 }}>
-                        {skill}
-                      </Button>
+                      <Chip label={skill} key={skill} variant="contained" color="primary" sx={{ mr: 1, mt: 1}}/>
                     ))}
                   </Box>
                 </CardContent>
-                <IconButton  href="https://github.com/jujusf13/Assembly_blackjack/blob/main/CP2_Final_File.s" sx={{ cursor: 'pointer', padding: 1, display: 'flex', justifyContent: 'flex-end'}}>
-                  <LinkIcon sx={{ cursor: 'pointer', fontSize: '2.5rem', color: '#638459', borderRadius: '25%', mt:12.5, ml:3 }} />
+                <IconButton  href="https://github.com/jujusf13/Assembly_blackjack/blob/main/CP2_Final_File.s" sx={{ mt:12.5, ml:3, cursor: 'pointer', padding: 1, display: 'flex', justifyContent: 'flex-end'}}>
+                  <LinkIcon sx={{ cursor: 'pointer', fontSize: '2.5rem', color: '#638459', borderRadius: '25%'}} />
                 </IconButton>
               </Grid>
             </Grid>
@@ -486,14 +482,12 @@ function ResponsiveAppBar() {
                   </Typography>
                   <Box mt={2} mb={-10}>
                     {['Cultural Analysis', 'Economic Theory', 'Research', 'R Programming'].map(skill => (
-                      <Button key={skill} variant="contained" color="primary" sx={{ mr: 1, mt: 1, paddingBottom: 1, width: '-6px' }}>
-                        {skill}
-                      </Button>
+                      <Chip label={skill} key={skill} variant="filled" color="primary" sx={{ mr: 1, mt: 1 }}/>
                     ))}
                   </Box>
                 </CardContent>
-                <IconButton href={`${process.env.PUBLIC_URL}/images/projects/Final_Paper_Evil_Eye.pdf`} sx={{ cursor: 'pointer', padding: 1, display: 'flex', justifyContent: 'flex-end'}}>
-                  <LinkIcon sx={{ cursor: 'pointer', fontSize: '2.5rem', color: '#638459', borderRadius: '25%', mt:12.5, ml:3 }} />
+                <IconButton href={`${process.env.PUBLIC_URL}/images/projects/Final_Paper_Evil_Eye.pdf`} sx={{ mt:12.5, ml:3, cursor: 'pointer', padding: 1, display: 'flex', justifyContent: 'flex-end'}}>
+                  <LinkIcon sx={{ cursor: 'pointer', fontSize: '2.5rem', color: '#638459', borderRadius: '25%' }} />
                 </IconButton>
               </Grid>
             </Grid>
@@ -522,14 +516,12 @@ function ResponsiveAppBar() {
                   </Typography>
                   <Box mt={2} mb={-15} ml={1}>
                     {['JavaScript', 'Material-UI', 'React.js', 'Node.js', 'HTML'].map(skill => (
-                      <Button key={skill} variant="contained" color="primary" sx={{ mr: 1, mt: 1, paddingBottom: 1, width: '-6px' }}>
-                        {skill}
-                      </Button>
+                      <Chip label={skill} key={skill} variant="contained" color="primary" sx={{ mr: 1, mt: 1 }}/>
                     ))}
                   </Box>
                 </CardContent>
-                <IconButton href={`${process.env.PUBLIC_URL}/images/projects/Final_Paper_Evil_Eye.pdf`} sx={{ cursor: 'pointer', padding: 1, display: 'flex', justifyContent: 'flex-end'}}>
-                  <LinkIcon sx={{ cursor: 'pointer', fontSize: '2.5rem', color: '#638459', borderRadius: '25%', mt:12.5, ml:3 }} />
+                <IconButton href={"https://github.com/misideris/Efthemias-Website"} sx={{ mt:12.5, ml:3, cursor: 'pointer', padding: 1, display: 'flex', justifyContent: 'flex-end'}}>
+                  <LinkIcon sx={{ cursor: 'pointer', fontSize: '2.5rem', color: '#638459', borderRadius: '25%'}} />
                 </IconButton>
               </Grid>
             </Grid>
