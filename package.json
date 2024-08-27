@@ -1,5 +1,5 @@
 {
-  "homepage" : "https://misideris.github.io/Efthemias-Website",
+  "homepage": "https://misideris.github.io/Efthemias-Website",
   "name": "materialui",
   "version": "0.1.0",
   "private": true,
@@ -18,12 +18,13 @@
     "react-scroll": "^1.9.0",
     "react-swipeable-views": "^0.14.0",
     "react-swipeable-views-utils": "^0.14.0",
+    "serve": "^14.2.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy":"gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
