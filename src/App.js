@@ -295,13 +295,6 @@ function ResponsiveAppBar() {
       <Box display="flex" alignItems="center" flexDirection="column">
         <a href="https://github.com/misideris" target="_blank" rel="noopener noreferrer">
           <IconButton sx={{ cursor: 'pointer' }}>
-            <InstagramIcon sx={{ cursor: 'pointer', fontSize: { xs: '2.5rem', md: '3.2rem' }, color: '#a40ba9', bgcolor: '#fbfbfb', borderRadius: '25%', border: '3px solid white' }} />
-          </IconButton>
-        </a>
-      </Box>
-      <Box display="flex" alignItems="center" flexDirection="column">
-        <a href="https://github.com/misideris" target="_blank" rel="noopener noreferrer">
-          <IconButton sx={{ cursor: 'pointer' }}>
             <GitHubIcon sx={{ cursor: 'pointer', fontSize: { xs: '2.5rem', md: '3.2rem' }, color: '#272727', bgcolor: '#fbfbfb', borderRadius: '25%', border: '3px solid white' }} />
           </IconButton>
         </a>
